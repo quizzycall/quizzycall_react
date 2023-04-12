@@ -5,12 +5,12 @@ import Alert from '../../elements/Alert/Alert'
 
 const Home = () => {
   return (
-    <div className=''>
+    <div className='font-display'>
       <Header />
       <div className=''>
         <div className='grid-rows-2 flex relative justify-center items-center mt-10'>
-          <Alert children={
-            <div className='w-96 h-96 text-center text-[color:black] m-10'>
+          <Alert color="blue-default" round_lvl="3xl" children={
+            <div className='w-96 h-96 text-center text-[color:black] m-10 '>
               <h1 className='text-3xl font-semibold'>
                 Привет, пользователь!
               </h1>
@@ -25,7 +25,7 @@ const Home = () => {
                 можешь создать свою ветку в <a href="https://github.com/quizzycall">Github репозитории</a>
               </p>
             </div>
-          } />
+          }/>
         </div>
       </div>
     </div>

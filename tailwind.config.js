@@ -7,7 +7,11 @@ export default {
   theme: {
     extend: {},
     colors: {
-      "default": "#FF7B69"
+      "lightred-default": "#FF7B69",
+      "blue-default": "#24B0FF",
+      "purple-default": "#8348FF",
+      "green-default": "#00C714",
+      "gray-bg-default": "#C1c1c1"
     },
     fontFamily: {
       "display": "Inter"
